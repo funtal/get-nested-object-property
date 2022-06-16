@@ -27,10 +27,7 @@ describe('getNestedObjectProperty function', () => {
   it('should return key from the object', () => {
     expect(getNestedObjectProperty({ key: 1 }, 'key')).toStrictEqual(1);
     expect(
-      getNestedObjectProperty(
-        { key: { nestedOne: 'nested key' } },
-        'key.nestedOne'
-      )
+      getNestedObjectProperty({ key: { nestedOne: 'nested key' } }, 'key.nestedOne')
     ).toStrictEqual('nested key');
   });
 });
