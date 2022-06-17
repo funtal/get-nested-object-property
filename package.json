@@ -3,6 +3,15 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "homepage": "https://github.com/funtal/get-nested-object-property#readme",
+  "description": "A safe way to retrieve values from any level of the object cavity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funtal/get-nested-object-property.git"
+  },
+  "bugs": {
+    "url": "https://github.com/funtal/get-nested-object-property/issues"
+  },
   "files": [
     "dist",
     "src"
