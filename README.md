@@ -33,11 +33,11 @@ or
 
 - LinkedIn: [@pwojtasinski](https://www.linkedin.com/in/pwojtasinski)
 
-## [](https://github.com/funtal/has-own-property#-contributing)🤝 Contributing
+## [](https://github.com/funtal/get-nested-object-property#-contributing)🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/funtal/has-own-property/issues).
+Feel free to check the [issues page](https://github.com/funtal/get-nested-object-property/issues).
 
 ## Show your support
 
