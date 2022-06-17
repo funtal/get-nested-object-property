@@ -2,12 +2,12 @@ import isString from 'is-string';
 import isObject from 'is-object';
 import hasOwnProperty from 'ts-has-own-property';
 
-import { FieldPathValue, Path, UnpackNestedValue } from './get-nested-object-property.types';
+import { TPath, TFieldPathValue, TUnpackNestedValue } from './get-nested-object-property.types';
 
-export const getNestedObjectProperty = <TObject extends object, TProperty extends Path<TObject>>(
+export const getNestedObjectProperty = <TObject extends object, TProperty extends TPath<TObject>>(
   object: TObject,
   propertyName: TProperty
-): UnpackNestedValue<FieldPathValue<TObject, TProperty>> | null => {
+): TUnpackNestedValue<TFieldPathValue<TObject, TProperty>> | null => {
   if (!isObject(object) || !isString(propertyName) || propertyName.trim() === '') {
     return null;
   }
